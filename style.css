@@ -67,3 +67,37 @@ h1{
     text-align: center;
     margin-top: 2rem;
 }
+
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
+}
+
+.item_input{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+}
+
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
+    font-family: 'Hind' sans-serif;
+    background: none;
+    outline: none;
+    color: red;
+    border: none;
+}
+
+.removebutton{
+    font-size: 1.4rem;
+    font-family: 'Hind' sans-serif;
+    background: none;
+    outline: none;
+    color: #E00;
+    border: none;
+}
