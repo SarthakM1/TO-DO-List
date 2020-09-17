@@ -14,6 +14,21 @@ class item{
         input.classList.add('item_input');
         input.type = "text";
 
+        Let itemBox = document.createElement('div');
+        itemBox.classList.add('item');
+
         Let editButton = document.createElement('button');
+        editButton.innerHTML = "EDIT";
+        editButton.classList.add('editButton');
+
+        Let removeButton = document.createElement('button');
+        removeButton.innerHTML = "REMOVE";
+        removeButton.classList.add('removeButton');
+
+        container.appendChild(itemBox);
+
+        itemBox.appendChild(input);
+        itemBox.appendChild(editButton);
+        itemBox.appendChild(removeButton);
     }
 }
